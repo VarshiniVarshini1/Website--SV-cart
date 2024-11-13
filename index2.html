@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2C E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>B2C Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product" id="product1">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p class="price">$100</p>
+            <button onclick="addToCart('Product 1', 100)">Add to Cart</button>
+        </div>
+        <div class="product" id="product2">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p class="price">$150</p>
+            <button onclick="addToCart('Product 2', 150)">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 B2C Store. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
